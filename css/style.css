@@ -1,0 +1,506 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Dancing+Script:wght@400..700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+.position-icons{
+   
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    right:0px;
+    bottom: 10px;
+}
+.position-icons #whtas-icon{
+    height: 20px;
+    width: 20px;
+    border: none;
+}
+#boximg{
+    height: 20px;
+    width: 20px;
+}
+.container{
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+    background-color: rgb(11, 146, 11);
+    position: sticky;
+    z-index: 2000;
+    top: 0%;
+}
+#im1{
+    height: 25px;
+}
+#t1{
+    font-size: smaller;
+    color: white;
+    font-family: "Alata", sans-serif;
+}
+span{
+   
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 249, 249);
+    font-size: large;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 6px ;
+}
+.HoleContent{
+    margin: 15px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+a{
+    text-decoration: none;
+    font-family: "Alata", sans-serif;
+}
+.logo{
+    text-indent: 20px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+
+}
+.tittle{
+    width: 60%;
+    text-align: justify;
+    margin-top: 2pc;
+    font-family: "Alata", sans-serif;
+    color: black;
+   
+}
+#im2{
+    height: 10pc;
+    width: 20pc;
+   
+}
+#t2{
+    font-size: 20px;
+    font-family: "Alata", sans-serif;
+}
+.but{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    width: 40%;
+    border: none;
+    font-family: "Alata", sans-serif;
+}
+.line{
+
+    height: 8vh;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+#services{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.tittles{
+    height: 10pc;
+    width: 20pc;
+    border-radius: 2pc;
+    border: 5px solid darkgreen;
+    text-align: center;
+    font-family: "Alata", sans-serif;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.image2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Alata", sans-serif;
+}
+#im3{
+    height: 20pc;
+    width: 30pc;
+    /* margin-left: -40pc; */
+}
+.h2info{
+    width: 60%;
+    height: 0%;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+#im4{
+    height: 5pc;
+    width: 5pc;
+}
+.box1{
+    width: 50%;
+    height: 11pc;
+    border:5px solid darkgreen;
+    float: left;
+    display: flex;
+    align-items: center;
+    border-radius: 2pc;
+    justify-content: center;
+    font-family: "Alata", sans-serif;
+    
+
+}
+.box2{
+    clear: left;
+    float: right;
+    width: 50%;
+    height: 11pc;
+    border:5px solid darkgreen;
+    display: flex;
+    align-items: center;
+    border-radius: 2pc;
+    justify-content: center;
+    font-family: "Alata", sans-serif;
+}
+.box3{
+    clear: right;
+    float: left;
+    width: 50%;
+    height: 11pc;
+    border:5px solid darkgreen;
+    display: flex;
+    align-items: center;
+    border-radius: 2pc;
+    justify-content: center;
+    font-family: "Alata", sans-serif;
+}
+.box4{
+    clear: left;
+    float: right;
+    width: 50%;
+    height: 11pc;
+    border:5px solid darkgreen;
+    display: flex;
+    align-items: center;
+    border-radius: 2pc;
+    justify-content: center;
+    font-family: "Alata", sans-serif;
+}
+#imgs{
+    height: 6pc;
+    width: 11pc;
+    margin: 5px;
+    filter: drop-shadow(0px 0px 5px darkgreen);
+}
+.text{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-family: "Alata", sans-serif;
+  margin: 5px;
+}
+#contact{
+    margin: auto;
+    width: 70%;
+    clear: right;
+    display: flex;
+    justify-content: space-between;
+   
+  
+}
+.conback{
+    background-color: darkgreen;
+}
+
+.add,.map{
+   text-align: center;
+    height: 11pc;
+    width: 30pc;
+    font-size: 20px;
+    overflow: hidden;
+    font-family: "Alata", sans-serif;
+    margin-top: 41px;
+   
+}
+.links{
+    height: 6pc;
+    width: 100%;
+    font-family: "Alata", sans-serif;
+    text-align: center;
+}
+h3{
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+#te1{
+    color: darkgreen;
+    font-family: "Dancing Script", cursive;
+    text-shadow: 0px 0px 5px  darkgreen;
+
+}
+h2{
+    font-size: 12px;
+    font-family: "Alata", sans-serif;
+    margin-top: 15px;
+    /* color: darkgreen; */
+}
+a:hover{
+    color: darkgreen;
+    background-color: white;
+    border: 1px solid darkgreen;
+    scale: 1.2;
+}
+.but:hover{
+    color: darkgreen;
+    background-color: white;
+    border: 2px solid darkgreen;
+}
+im3:hover{
+    margin-left: 0px;
+}
+.lin{
+    clear: both;
+   height: 10vh;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+}
+#an1{
+    color: rgb(255, 0, 221);
+    height: 5px;
+    border: none;
+}
+#an2{
+    color: rgb(0, 229, 255);
+    border: none;
+}
+#head1{
+    font-size: 20px;bu
+
+}
+figure{
+    margin-left: -500px;
+    overflow: hidden;
+    width: 40pc;
+    transition: all 800ms;
+}
+figure:hover{
+    margin-left: 0%;
+    filter: drop-shadow(0px 0px 10px darkgreen);
+    cursor: pointer;
+}
+#tes{
+    font-size: 12px;
+}
+.buton1-nav{
+    width: 20px;
+
+    display: none; 
+
+    
+}
+
+@media only screen and (min-width:320px) and (max-width:720px) {
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        width: 100%;
+        box-sizing: border-box;
+    
+    }
+    *{
+       box-sizing: border-box;
+    }
+    .menu{
+        display: none;
+        /* position: fixed; */
+    }  
+    .container{
+       width: 100%;
+    }
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+    }
+    h1{
+        font-size: 15px;
+        width: 100%;
+    }
+    .content1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #services {
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        align-items: center;
+        width: 100%;
+
+    }
+    #tex{
+        font-size: 10px;
+        text-align: justify;
+
+    }
+    .tittles {
+        height: 7pc;
+        width: 10pc;
+        border-radius: 2pc;
+        border: 5px solid darkgreen;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        font-family: "Alata", sans-serif;
+    }
+    .logo {
+        text-indent: 30px;
+    }
+    #t2 {
+        font-size: 15px;
+        font-family: "Alata", sans-serif;
+        width: 100%;
+    }
+    .box{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 5px;
+
+    }
+    .text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .box1,.box2,.box3,.box4{
+        width: 90%;
+    }
+    .image2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-family: "Alata", sans-serif;
+    }
+    .tittle{
+        width: 100%;
+        
+    }
+    #te1 {
+        font-size: 10px;
+        color: darkgreen;
+        font-family: "Dancing Script", cursive;
+        text-shadow: 0px 0px 5px darkgreen;
+    }
+    #te1 {
+    color: darkgreen;
+    font-family: "Dancing Script", cursive;
+    text-shadow: 0px 0px 5px darkgreen;
+    }
+    #im3{
+    height: 10pc;
+    width: 20pc;
+    }
+
+
+    h2{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    #contact{
+        margin: auto;
+        width: 70%;
+        clear: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+      
+    }
+    .add,.map{
+        text-align: center;
+         height: 11pc;
+         width: 30pc;
+         font-size: 20px;
+         overflow: hidden;
+         font-family: "Alata", sans-serif;
+         margin-top: 41px;
+         width: 100%;
+        
+     }
+     figure{
+       
+      margin-left: 0%;
+        overflow: hidden;
+        width: 100%;
+        transition: all 800ms;
+        margin-bottom: 10px;
+    }
+    figure:hover{
+        margin-left: 0%;
+        filter: drop-shadow(0px 0px 10px darkgreen);
+       
+    }
+    #imgs{
+        height: 4pc;
+        width: 8pc;
+        margin: 5px;
+        filter: drop-shadow(0px 0px 5px darkgreen);
+    }
+    #an1{
+        color: rgb(255, 255, 255);
+        height: 5px;
+        border: none;
+    }
+    #an2{
+        color: rgb(255, 255, 255);
+        border: none;
+    }
+    .buton1-nav{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        color: orange;
+        border: none;
+        margin-right: 10px;
+        padding: 10px;
+        background-color: green;
+      
+
+    }
+    .menu{
+     
+        position: absolute;
+        top: 50px;
+        right: 0;
+
+        flex-direction: column;
+        background-color: lightgreen;
+    } 
+     
+    
+}
