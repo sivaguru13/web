@@ -137,7 +137,8 @@ a{
 #im3{
     height: 20pc;
     width: 30pc;
-    /* margin-left: -40pc; */
+    
+    margin-left: 60px; 
 }
 .h2info{
     width: 60%;
